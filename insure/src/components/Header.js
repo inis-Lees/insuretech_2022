@@ -11,11 +11,7 @@ const HeaderBlock = styled.div`
 `;
 
 const Header = ({ title }) => {
-    return <div>
-            <HeaderBlock>{title}</HeaderBlock>
-            <a href='/test'>이동1</a>&nbsp;&nbsp;&nbsp;
-            <a href='/test2'>이동2</a>
-        </div>;
+  return <HeaderBlock>{title}</HeaderBlock>;
 };
 
 export default Header;
